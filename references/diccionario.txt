@@ -1,0 +1,30 @@
+1  - Year: El año en el que tuvo lugar desde 2003 a 2018
+2  - Month: El mes en el que tuvo lugar desde 1 a 12
+3  - Day_Of_Month: El día entre 1 y 31
+4  - Day_Of_Week: El dia de la semana desde 1 (Lunes) a 7 (Domingo)
+5  - OP_Unique_Carrier: Identificador único de la aerolínea
+6  - OP_Carrier_Fl_Num: Número de vuelo
+7  - Tail_Num: Número identificador del avión
+8  - Origin_Airport_ID: El código IATA del aeropuerto de origen
+9  - Dest_Airport_ID: El código IATA del aeropuerto de destino
+10 - CRS_Dep_Time: Hora de salida programada (local, hhmm)
+11 - Dep_Time: Hora de salida (local, hhmm)
+12 - Dep_Delay: Retraso en la salida
+13 - Taxi_Out: El tiempo transcurrido el avión sale de la puerta de origen, hasta que las ruedas suben 
+14 - Taxi_In: El tiempo transcurrido desde que las ruedas bajan, hasta que el avión llega a la puerta de destino
+15 - CRS_Arr_Time: Hora de llegada programada (local, hhmm)
+16 - Arr_Time: Hora de llegada (local, hhmm)
+17 - Arr_Delay: Retraso en la llegada
+18 - Cancelled: Si fue o no cancelado el viaje, 1 = si, 0 = no
+19 - Cancellation_Code: Razón de la cancelación (A = aerolínea, B = tiempo atmosférico, C = NAS, D = seguridad)
+20 - Diverted: El avión tuvo que aterrizar en un destino que no era el originalmente planificado, 1 = si, 0 = no
+21 - CRS_Elapsed_Time: Tiempo transcurrido que daba el CRS
+22 - Actual_Elapsed_Time: Tiempo real transcurrido en minutos
+23 - Air_Time: Tiempo que el avión ha transcurrido en el aire
+24 - Distance: Distancia recorrida durante el vuelo (en millas)
+25 - Carrier_Delay: El retraso de la aerolínea en minutos
+26 - Weather_Delay: El retraso debido al clima en minutos
+27 - NAS_Delay: El retraso debido al NAS en minutos
+28 - Security_Delay: Retraso por seguridad en minutos
+29 - Late_Aircraft_Delay: Retraso por el avión en minutos
+
