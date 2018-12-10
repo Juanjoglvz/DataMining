@@ -1,27 +1,20 @@
 import pandas as pd
-import numpy as np
 
 df = pd.read_csv('../../data/interim/vuelos.csv')
-
-for col in df.columns:
-    print(col)
-
-print(df.columns())
 
 # Nos quedamos solo con los datos del verano
 df_m = df[(df['MONTH'] > 5) & (df['MONTH'] <= 8)]
 
-# Quitamos las filas canceladas y diverteds, porque no tienen delays
-df_m = df_m[(df_m['CANCELLED'] == 1)]
-df_m = df_m[(df_m['DIVERTED'] == 1)]
+df_m.to_csv('../../data/interim/vuelos_verano.csv')
 
 df_m = pd.read_csv('../../data/interim/vuelos_verano.csv')
 
+# Quitamos las filas canceladas y diverteds, porque no tienen delays
+df_m = df_m[(df_m['CANCELLED'] != 1)]
+df_m = df_m[(df_m['DIVERTED'] != 1)]
 
 # Añadimos la columna de dia de verano para diferenciar entre el 1 de junio y julio
 df_m['SUMMER_DAY'] = ((df_m['MONTH'] - 6) * 31) + df_m['DAY_OF_MONTH']
-
-
 
 
 # Quitamos las columnas que no nos interesan
@@ -39,7 +32,9 @@ df_m_n['DELAY'] = df_m_n['CARRIER_DELAY'] + df_m_n['WEATHER_DELAY'] + df_m_n['NA
 cols = ['CARRIER_DELAY', 'WEATHER_DELAY', 'NAS_DELAY', 'SECURITY_DELAY', 'LATE_AIRCRAFT_DELAY']
 df_m_n = df_m_n.drop(cols, axis = 1)
 
-
+# Deteccion estadística de outliers. Quitamos los valores que esten más allá de 5 desviaciones estandar
+# porque la distribución del delay es muy sesgada a la izquierda 
+df_m_n = df_m_n.drop(df_m_n.index[(df_m_n['DELAY'] > (df_m_n['DELAY'].mean() + 5 * df_m_n['DELAY'].std()))])
 
 dfiata = pd.read_csv('../../data/external/ID_TO_IATA.csv')
 
@@ -53,3 +48,19 @@ dfiata_uni = pd.DataFrame.from_dict(airports, orient='index')
 
 df_m_n['ORIGIN_AIRPORT_ID'] = df_m_n['ORIGIN_AIRPORT_ID'].map(dfiata_uni[0])
 df_m_n['DEST_AIRPORT_ID'] = df_m_n['DEST_AIRPORT_ID'].map(dfiata_uni[0])
+
+# Hay algunos aeropuertos que no tienen codigo IATA
+# Como máximo 97 vuelos son los que no tienen código
+# Así que los eliminamos
+df_m_n = df_m_n.dropna()
+
+# Añadimos columna booleana para clasificación
+df_m_n['DELAYED'] = df_m_n.apply (lambda row: 0 if row['DELAY'] == 0 else 1 ,axis=1)
+
+df_m_n.to_csv('../../data/processed/vuelos_verano_c.csv')
+
+# Nos quedamos solo con los vuelos retrasados para regresion
+
+df_r = df_m_n[(df_m_n['DELAYED'] == 1)]
+
+df_r.to_csv('../../data/processed/vuelos_verano_r.csv')
