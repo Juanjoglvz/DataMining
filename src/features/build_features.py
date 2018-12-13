@@ -64,3 +64,23 @@ df_m_n.to_csv('../../data/processed/vuelos_verano_c.csv')
 df_r = df_m_n[(df_m_n['DELAYED'] == 1)]
 
 df_r.to_csv('../../data/processed/vuelos_verano_r.csv')
+
+# Creamos una columna nueva distribuyendo las horas
+df_m_n["interval_dep"] = 0
+df_m_n["interval_arr"] = 0
+
+last_dep = 1.0
+last_arr = 1.0
+for i in [0.2, 0.4, 0.6, 0.8, 1]:
+    q_dep = df_m_n.CRS_DEP_TIME.quantile(i)
+    q_arr = df_m_n.CRS_ARR_TIME.quantile(i)
+    interval_dep = pd.Interval(last_dep, q_dep)
+    interval_arr = pd.Interval(last_arr, q_arr)
+    df_m_n.loc[df_m_n["CRS_DEP_TIME"].between(last_dep, q_dep), "interval_dep"] = interval_dep
+    df_m_n.loc[df_m_n["CRS_ARR_TIME"].between(last_arr, q_arr), "interval_arr"] = interval_arr
+    last_dep = q_dep
+    last_arr = q_arr
+
+df_m_n.to_csv('../../data/processed/vuelos_verano_intervalos_c.csv')
+
+
