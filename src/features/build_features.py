@@ -3,18 +3,19 @@ import pandas as pd
 df = pd.read_csv('../../data/interim/vuelos.csv')
 
 # Nos quedamos solo con los datos del verano
-df_m = df[(df['MONTH'] > 5) & (df['MONTH'] <= 8)]
+#df_m = df[(df['MONTH'] > 5) & (df['MONTH'] <= 8)]
+df_m = df
 
-df_m.to_csv('../../data/interim/vuelos_verano.csv')
+#df_m.to_csv('../../data/interim/vuelos_verano.csv')
 
-df_m = pd.read_csv('../../data/interim/vuelos_verano.csv')
+#df_m = pd.read_csv('../../data/interim/vuelos_verano.csv')
 
 # Quitamos las filas canceladas y diverteds, porque no tienen delays
 df_m = df_m[(df_m['CANCELLED'] != 1)]
 df_m = df_m[(df_m['DIVERTED'] != 1)]
 
 # Añadimos la columna de dia de verano para diferenciar entre el 1 de junio y julio
-df_m['SUMMER_DAY'] = ((df_m['MONTH'] - 6) * 31) + df_m['DAY_OF_MONTH']
+#df_m['SUMMER_DAY'] = ((df_m['MONTH'] - 6) * 31) + df_m['DAY_OF_MONTH']
 
 
 # Quitamos las columnas que no nos interesan
@@ -43,7 +44,7 @@ airports = {}
 for index, row in dfiata.iterrows():
     airports[row['ORIGIN_AIRPORT_ID']] = row['ORIGIN']
 
-# lo converitmos a dataframe y lo mapeamos para modificar nuestro datafram (df_m_n)
+# lo converitmos a dataframe y lo mapeamos para modificar nuestro dataframe (df_m_n)
 dfiata_uni = pd.DataFrame.from_dict(airports, orient='index')
 
 df_m_n['ORIGIN_AIRPORT_ID'] = df_m_n['ORIGIN_AIRPORT_ID'].map(dfiata_uni[0])
@@ -57,13 +58,13 @@ df_m_n = df_m_n.dropna()
 # Añadimos columna booleana para clasificación
 df_m_n['DELAYED'] = df_m_n.apply (lambda row: 0 if row['DELAY'] == 0 else 1 ,axis=1)
 
-df_m_n.to_csv('../../data/processed/vuelos_verano_c.csv')
+#df_m_n.to_csv('../../data/processed/vuelos_verano_c.csv')
 
 # Nos quedamos solo con los vuelos retrasados para regresion
 
 df_r = df_m_n[(df_m_n['DELAYED'] == 1)]
 
-df_r.to_csv('../../data/processed/vuelos_verano_r.csv')
+#df_r.to_csv('../../data/processed/vuelos_verano_r.csv')
 
 # Creamos una columna nueva distribuyendo las horas
 df_m_n["interval_dep"] = 0
@@ -81,6 +82,20 @@ for i in [0.2, 0.4, 0.6, 0.8, 1]:
     last_dep = q_dep
     last_arr = q_arr
 
-df_m_n.to_csv('../../data/processed/vuelos_verano_intervalos_c.csv')
+#df_m_n.to_csv('../../data/processed/vuelos_verano_intervalos_c.csv')
+df_m_n.to_csv('../../data/processed/vuelos_intervalos.csv')
+
+df_vuelos = pd.read_csv('../../data/processed/vuelos_intervalos.csv')
+df_tail = pd.read_csv('../../data/external/TAIL_TO_TYPE.csv')
+
+#tail_grouped = df_vuelos.groupby(by='TAIL_NUM',axis=1)
+planes = {}
+for index, row in df_tail.iterrows():
+    planes[row['tailnum']] = row['model']
+    
+dfiata_uni = pd.DataFrame.from_dict(planes, orient='index')
+
+df_vuelos['TAIL_NUM'] = df_vuelos['TAIL_NUM'].map(dfiata_uni[0])
+df_droped = df_vuelos.dropna(axis = 0)
 
 
