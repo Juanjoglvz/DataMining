@@ -98,4 +98,4 @@ dfiata_uni = pd.DataFrame.from_dict(planes, orient='index')
 df_vuelos['TAIL_NUM'] = df_vuelos['TAIL_NUM'].map(dfiata_uni[0])
 df_droped = df_vuelos.dropna(axis = 0)
 
-
+df_droped.to_csv('../../data/processed/vuelos_interv_aircraft_models.csv')
