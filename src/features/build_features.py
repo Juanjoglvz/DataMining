@@ -90,12 +90,16 @@ df_tail = pd.read_csv('../../data/external/TAIL_TO_TYPE.csv')
 
 #tail_grouped = df_vuelos.groupby(by='TAIL_NUM',axis=1)
 planes = {}
+year = {}
 for index, row in df_tail.iterrows():
     planes[row['tailnum']] = row['model']
+    year[row['tailnum']] = row['year']
     
-dfiata_uni = pd.DataFrame.from_dict(planes, orient='index')
+dfmodel = pd.DataFrame.from_dict(planes, orient='index')
+dfyear = pd.DataFrame.from_dict(year, orient='index')
 
-df_vuelos['TAIL_NUM'] = df_vuelos['TAIL_NUM'].map(dfiata_uni[0])
+df_vuelos['MODEL'] = df_vuelos['TAIL_NUM'].map(dfmodel[0])
+df_vuelos['AIRCRAFT_YEAR'] = df_vuelos['TAIL_NUM'].map(dfyear[0])
 df_droped = df_vuelos.dropna(axis = 0)
 
-df_droped.to_csv('../../data/processed/vuelos_interv_aircraft_models.csv')
+df_droped.to_csv('../../data/processed/vuelos_aircraft_model_year.csv')
