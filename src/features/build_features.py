@@ -1,26 +1,26 @@
 import pandas as pd
 
-df = pd.read_csv('../../data/interim/vuelos.csv')
+df_m_n = pd.read_csv('../../data/interim/vuelos.csv')
 
 # Nos quedamos solo con los datos del verano
 #df_m = df[(df['MONTH'] > 5) & (df['MONTH'] <= 8)]
-df_m = df
 
 #df_m.to_csv('../../data/interim/vuelos_verano.csv')
 
 #df_m = pd.read_csv('../../data/interim/vuelos_verano.csv')
 
 # Quitamos las filas canceladas y diverteds, porque no tienen delays
-df_m = df_m[(df_m['CANCELLED'] != 1)]
-df_m = df_m[(df_m['DIVERTED'] != 1)]
+df_m_n = df_m_n[(df_m_n['CANCELLED'] != 1)]
+df_m_n = df_m_n[(df_m_n['DIVERTED'] != 1)]
 
 # Añadimos la columna de dia de verano para diferenciar entre el 1 de junio y julio
 #df_m['SUMMER_DAY'] = ((df_m['MONTH'] - 6) * 31) + df_m['DAY_OF_MONTH']
 
 
-# Quitamos las columnas que no nos interesan
-cols = ['YEAR', 'MONTH', 'DAY_OF_MONTH', 'OP_CARRIER_FL_NUM', 'DEP_TIME', 'DEP_DELAY', 'TAXI_OUT', 'TAXI_IN', 'ARR_TIME', 'ARR_DELAY', 'CANCELLED', 'CANCELLATION_CODE', 'DIVERTED', 'ACTUAL_ELAPSED_TIME', 'AIR_TIME']
-df_m_n = df_m.drop(cols, axis = 1)
+# Quitamos las columnas que no nos interesa
+# 'YEAR', 'MONTH', 'DAY_OF_MONTH' 
+cols = ['OP_CARRIER_FL_NUM', 'DEP_TIME', 'DEP_DELAY', 'TAXI_OUT', 'TAXI_IN', 'ARR_TIME', 'ARR_DELAY', 'CANCELLED', 'CANCELLATION_CODE', 'DIVERTED', 'ACTUAL_ELAPSED_TIME', 'AIR_TIME']
+df_m_n = df_m_n.drop(cols, axis = 1)
 
 
 # Cambiamos los nans por ceros
@@ -83,7 +83,7 @@ for i in [0.2, 0.4, 0.6, 0.8, 1]:
     last_arr = q_arr
 
 #df_m_n.to_csv('../../data/processed/vuelos_verano_intervalos_c.csv')
-df_m_n.to_csv('../../data/processed/vuelos_intervalos.csv')
+df_m_n.to_csv('../../data/processed/vuelos_intervalos.csv',index=False)
 
 df_vuelos = pd.read_csv('../../data/processed/vuelos_intervalos.csv')
 df_tail = pd.read_csv('../../data/external/TAIL_TO_TYPE.csv')
@@ -102,4 +102,11 @@ df_vuelos['MODEL'] = df_vuelos['TAIL_NUM'].map(dfmodel[0])
 df_vuelos['AIRCRAFT_YEAR'] = df_vuelos['TAIL_NUM'].map(dfyear[0])
 df_droped = df_vuelos.dropna(axis = 0)
 
-df_droped.to_csv('../../data/processed/vuelos_aircraft_model_year.csv')
+df_droped.to_csv('../../data/processed/vuelos_aircraft_model_year.csv',index=False)
+
+df = pd.read_csv('../../data/processed/vuelos_aircraft_model_year.csv')
+
+df = df.drop(['Unnamed: 0','Unnamed: 0.1'],axis = 1)
+
+df737 = df[df['MODEL']=='737-7H4']
+
