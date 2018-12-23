@@ -1,0 +1,163 @@
+\documentclass[format=acmsmall, review=false, screen=true]{acmart}
+
+\usepackage{booktabs} % For formal tables
+\usepackage{lipsum}
+
+\usepackage[utf8]{inputenx}
+\usepackage[T1]{fontenc} % Codificación de salida 
+
+\usepackage[ruled]{algorithm2e} % For algorithms
+\renewcommand{\algorithmcfname}{ALGORITHM}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\SetAlCapHSkip{0pt}
+\IncMargin{-\parindent}
+
+
+% Metadata Information
+%\acmJournal{TWEB}
+%\acmVolume{9}
+%\acmNumber{4}
+%\acmArticle{39}
+%\acmYear{2018}
+%\acmMonth{3}
+%\copyrightyear{2018}
+%\acmArticleSeq{9}
+
+% Copyright
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+% DOI
+\acmDOI{0000001.0000001}
+
+
+% Document starts
+\begin{document}
+	% Title portion. Note the short title for running heads
+	\title{Sistema de predicción de retrasos en vuelos}
+	
+	\author{Fernando Vallejo}
+	\affiliation{%
+		\institution{Universidad de Castilla-La Mancha}
+		\city{Ciudad Real}
+		\state{Ciudad Real}
+		\country{Spain}
+	}
+	\email{Fernando.Vallejo@alu.uclm.es}
+	\author{Juan José Corroto}
+	\affiliation{%
+		\institution{Universidad de Castilla-La Mancha}
+		\city{Ciudad Real}
+		\state{Ciudad Real}
+		\country{Spain}
+	}
+	\email{JuanJose.Corroto@alu.uclm.es}
+	\author{Alvaro Guerrero}
+	\affiliation{%
+		\institution{Universidad de Castilla-La Mancha}
+		\city{Ciudad Real}
+		\state{Ciudad Real}
+		\country{Spain}
+	}
+	\email{Alvaro.Guerrero1@alu.uclm.es}
+	\author{Javier Cordoba}
+	\affiliation{%
+		\institution{Universidad de Castilla-La Mancha}
+		\city{Ciudad Real}
+		\state{Ciudad Real}
+		\country{Spain}
+	}
+	\email{Javier.Cordoba1@alu.uclm.es}
+	
+\maketitle
+
+\begin{abstract}
+	\lipsum[1]
+\end{abstract}
+
+\keywords{KDD Process, Mineria de datos}
+
+\section{Introducción}
+
+\section{Proceso KDD}
+\subsection{Selección}
+\subsection{Preproceso}
+\subsection{Transformation}
+\subsection{Minería de Datos (Primera Aproximación)}
+En esta primera aproximación realizaremos una clasificación binaria de forma que intentaremos predecir cuando un vuelo se va a retrasar (1) o no (0), en base a los datos que sabemos a priori en un vuelo. En este caso, usaremos los siguientes datos:
+\begin{itemize}
+	\item El nombre de la aerolínea encargada del vuelo.
+	\item El día de verano, es decir, dentro de la temporada del verano (Junio, Julio y Agosto), en qué día nos situamos.
+	\item Hora programada de salida.
+	\item Hora programada de llegada.
+	\item Día de la semana, del 1 (Lunes) al 7 (Domingo).
+\end{itemize}
+Para crear este modelo de entrenamiento, hemos usado un árbol de decisión con el 70\% de los datos respectivos al verano [\ref{fig:ArbAprox1}] que son más de 1 millón de registros.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=10cm]{ArbAprox1.png}
+	\caption{Fragmento de árbol de decisión de la primera aproximación}
+	\label{fig:ArbAprox1}
+\end{figure}
+
+
+\subsection{Interpretación (Primera Aproximación)}
+
+Al realizar el \emph{testing} con el resto de los datos (el 30\% restante) obtenemos una matriz de confusión [\ref{fig:ConfMatrixAprox1}], como podemos observar no son datos muy buenos, si bien acertamos el 60\% de los retrasos hay un 40\% que debemos minimizar lo máximo posible ya que el objetivo de nuestro sistema es predecir todos los retrasos, es decir, minimizar los Falsos Negativos. 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=10cm]{ConfMatrixAprox1.png}
+	\caption{Matriz de confusión de la primera aproximación}
+	\label{fig:ConfMatrixAprox1}
+\end{figure}
+
+Pero el objetivo de crear este árbol no era realmente extraer un buen modelo de predicción sino aumentar nuestro conocimiento sobre la importancia de las variables de nuestra tarjeta de datos [\ref{fig:ImportanciaAprox1}]. Podemos ver como la variables más importante es la aerolínea que realiza el vuelo, pero tampoco es un dato excesivamente relevante ya que es un hecho que hay aerolíneas con más retraso que otras. Es decir, nuestro árbol de decisión ha realizado la mayoría de sus predicciones basándose en si ese vuelo lo realizaba una aerolínea con muchos retrasos (los marcaba como 1), o con pocos retrasos (los marcaba como 0).
+
+Otro dato que cobra mucha importancia es el día del verano y las horas programadas de llegada y salida, esto ya nos da unas primeras pistas de que puede existir cierta estacionalidad, por lo que ya empezamos a intuir que una Serie Temporal podría darnos unos mejores resultados.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=7cm]{ImportanciaAprox1.png}
+	\caption{Importancia de las variables de la primera aproximación}
+	\label{fig:ImportanciaAprox1}
+\end{figure}
+
+\subsection{Minería de Datos (Segunda Aproximación)}
+
+Como una segunda aproximación realizamos otro árbol de decisión [\ref{fig:ArbAprox2}] para hacer una clasificación binaria de forma análoga a la anterior aproximación. En este caso nos quedamos solo con las variables relativas a la hora programada (llegada y salida), con una particularidad, en este caso es una variable categórica que representa el intervalo de tiempo en el que el vuelo se realiza (esta división fue hecha mediante uso de cuantiles para crear una distribución uniforme). Además incluimos el modelo de avión que del vuelo en concreto, por falta de datos referentes al modelo la cantidad de datos se redujo a la mitad, por lo que vimos conveniente empezar a usar todos los datos referentes al año completo, no solo el verano como en la aproximación anterior.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=10cm]{ArbAprox2.png}
+	\caption{Fragmento de árbol de decisión de la segunda aproximación}
+	\label{fig:ArbAprox2}
+\end{figure}
+
+\subsection{Interpretación (Segunda Aproximación)}
+Como se puede observar en el árbol [\ref{fig:ArbAprox2}] en los nodos de color rojo (modelo de avión), esta es una característica que parece cobrar mucha importancia (esto también se puede ver en [\ref{fig:ImportanciaAprox2}]) en este caso es porque hay ciertos modelos de avión que realizan viajes más cortos y que otros, por lo que en un día pueden realizar muchos viajes y por tanto, acumular más retraso en el caso que se produzca. De nuevo el tiempo vuelve a cobrar cierta importancia por lo antes mencionado.
+
+Los resultados mostrados en la matriz de confusión [\ref{fig:ConfMatrixAprox2}] vuelven a no ser muy buenos, si bien la proporción de falsos negativos se reduce, los falsos positivos aumentan. Aunque dar un falso positivo no es algo crítico, sí que se puede observar un gran exceso de estos y habría que reducirlos, pero no es necesario una minimización de los mismos.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=10cm]{ConfMatrixAprox2.png}
+	\caption{Matriz de confusión de la primera aproximación}
+	\label{fig:ConfMatrixAprox2}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=7cm]{ImportanciaAprox2.png}
+	\caption{Importancia de las variables de la primera aproximación}
+	\label{fig:ImportanciaAprox2}
+\end{figure}
+\end{document}

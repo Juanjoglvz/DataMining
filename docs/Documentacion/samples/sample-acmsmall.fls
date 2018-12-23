@@ -1,0 +1,511 @@
+PWD C:/Users/ASUS/Desktop/Fernando/uclm/4º/Minería de Datos/Documentacion/samples
+INPUT C:/Users/ASUS/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT sample-acmsmall.tex
+OUTPUT sample-acmsmall.log
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/acmart/acmart.cls
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/acmart/acmart.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.tex
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkvutils.tex
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/keyval.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/generic/xstring/xstring.tex
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amscls/amsart.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amscls/amsart.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype-pdftex.def
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype-pdftex.def
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.cfg
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.cfg
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/microtype.cfg
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/refcount.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/refcount.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/totpages/totpages.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/totpages/totpages.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/environ/environ.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/environ/environ.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/trimspaces/trimspaces.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/trimspaces/trimspaces.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/textcase/textcase.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/textcase/textcase.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/natbib/natbib.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/natbib/natbib.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/puenc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/puenc.def
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ncctools/manyfoot.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ncctools/manyfoot.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ncctools/nccfoots.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ncctools/nccfoots.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/iftex/iftex.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/iftex/iftex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/pdftex/glyphtounicode.tex
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/pdftex/glyphtounicode.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/cmap.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/cmap.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/libertine.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/inconsolata/zi4.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/newtxmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
+OUTPUT sample-acmsmall.pdf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/libertine.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/libertine.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/mweights/mweights.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/mweights/mweights.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/fontaxes/fontaxes.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/fontaxes/fontaxes.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/LinLibertine_I.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/LinLibertine_I.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/inconsolata/zi4.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/inconsolata/zi4.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/newtxmath.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/newtxmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/centernot.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/centernot.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/generic/binhex/binhex.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/generic/binhex/binhex.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/comment/comment.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/comment/comment.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/t1linuxlibertinet-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/t1linuxlibertinet-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/booktabs/booktabs.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/booktabs/booktabs.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/algorithm2e/algorithm2e.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/algorithm2e/algorithm2e.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ifoddpage/ifoddpage.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/ifoddpage/ifoddpage.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/xspace.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/xspace.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/ltxmisc/relsize.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/ltxmisc/relsize.sty
+INPUT sample-acmsmall.aux
+INPUT sample-acmsmall.aux
+OUTPUT sample-acmsmall.aux
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/omlnxlmi.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/omlnxlmi.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxexa.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxexa.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/lmsntxsy.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/lmsntxsy.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/lmxntxexx.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/lmxntxexx.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/ot1linuxlibertinet-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/ot1linuxlibertinet-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/ot1.cmap
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/ot1.cmap
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmi7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/mmap/oml.cmap
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/mmap/oml.cmap
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmi5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmi5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsy7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsy5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsy5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxmia.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxmia.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxsym.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxsym.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxsyc.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/newtx/untxsyc.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT sample-acmsmall.out
+INPUT sample-acmsmall.out
+INPUT sample-acmsmall.out
+INPUT sample-acmsmall.out
+INPUT ./sample-acmsmall.out
+INPUT ./sample-acmsmall.out
+OUTPUT sample-acmsmall.out
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/upquote/upquote.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/upquote/upquote.sty
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/t1linuxbiolinumt-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/t1linuxbiolinumt-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/ts1linuxlibertinet-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/libertine/ts1linuxlibertinet-tlf.fd
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmi7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsy7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/mt-msa.cfg
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/mt-msa.cfg
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/mt-msb.cfg
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/tex/latex/microtype/mt-msb.cfg
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT samplebody-journals.tex
+INPUT samplebody-journals.tex
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinBiolinumTB-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinBiolinumTB-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/ntxsy.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/txsys.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmi.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlri-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/LibertineTheta-Regular.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlr-8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlri-8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rntxmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmia.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlr-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/Libertine-nu.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexb.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rtxmio.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyralt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsyb.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/boondox/zxxrl7z.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/txfonts/txr.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxptmr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmi5.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/fxlri-5alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/LibertineTheta-Regular.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rtxmi5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlr-5nums.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/fxlri-5letters.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rntxmi5.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmia.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlr-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/Libertine-nu.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlri-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlri-8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexb.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rtxmio.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyralt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsyb.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlr-8r.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/boondox/zxxrl7z.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/txfonts/txr.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxptmr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/txfonts/txmi.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmi7.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/fxlri-7alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/LibertineTheta-Regular.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rtxmi7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlr-7nums.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/fxlri-7letters.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rntxmi7.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinBiolinumTI-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumTI-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmi.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlri-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/LibertineTheta-Regular.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlr-8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlri-8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rntxmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/txfonts/txmi.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxmi.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/ntxsy.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/txsys.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/nxlmia.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlr-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/Libertine-nu.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rfxlri-alt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txmia.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlri-8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsyc.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxexb.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/rtxmio.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/ntxsyralt.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsyb.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/newtx/zxlr-8r.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/boondox/zxxrl7z.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/txfonts/txr.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxptmr.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT mouse.eps
+INPUT ./mouse.eps
+INPUT ./mouse.eps
+INPUT ./mouse-eps-converted-to.pdf
+INPUT ./mouse-eps-converted-to.pdf
+INPUT ./mouse.eps
+INPUT ./mouse-eps-converted-to.pdf
+INPUT ./mouse-eps-converted-to.pdf
+INPUT ./mouse-eps-converted-to.pdf
+INPUT ./mouse-eps-converted-to.pdf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-sc-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineT-tlf-sc-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineT-tlf-sc-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/newtx/ntxsym.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/txfonts/txsya.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+OUTPUT comment.cut
+INPUT comment.cut
+INPUT comment.cut
+OUTPUT comment.cut
+INPUT comment.cut
+INPUT comment.cut
+INPUT sample-acmsmall.bbl
+INPUT sample-acmsmall.bbl
+INPUT sample-acmsmall.aux
+INPUT ./sample-acmsmall.out
+INPUT ./sample-acmsmall.out
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_ncsllp.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/libertinealt.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
+INPUT C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_7grukw.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_nh77jq.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_naooyc.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_76gpa5.enc
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumT.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumT.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumTB.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumTB.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumTI.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumTI.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/fxlri-5letters.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/fxlri-5letters.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/fxlri-7letters.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/fxlri-7letters.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxmi.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxmi.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/txsya.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/txsya.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.pfb
+INPUT C:/Users/ASUS/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.pfb
