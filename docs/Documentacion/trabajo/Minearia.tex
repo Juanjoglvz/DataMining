@@ -6,6 +6,8 @@
 \usepackage[utf8]{inputenx}
 \usepackage[T1]{fontenc} % Codificación de salida 
 
+\usepackage{subcaption} % Used for subfigure
+
 \usepackage[ruled]{algorithm2e} % For algorithms
 \renewcommand{\algorithmcfname}{ALGORITHM}
 \SetAlFnt{\small}
@@ -160,4 +162,54 @@ Los resultados mostrados en la matriz de confusión [\ref{fig:ConfMatrixAprox2}]
 	\caption{Importancia de las variables de la primera aproximación}
 	\label{fig:ImportanciaAprox2}
 \end{figure}
+
+%----------------------------------------------------------------------------
+
+
+%---------------------------------------------------------------------------
+
+\subsection{Regresión}
+Una vez terminadas las anteriores aproximaciones destinadas a conseguir clasificar los vuelos entre aquellos que se retrasaron y aquellos que no, con mejor o peor resultado, procedemos a intentar predecir cuanto se retrasará un determinado vuelo.
+
+Para ello, utilizaremos series temporales, en concreto, series temporales regulares. Por este motivo, necesitamos obtener registros que contengan información sobre intervalos de tiempo espaciados regularmente, que en nuestro caso, serán días. Así, obtendremos un nuevo \textit{Dataset}, que contiene 426 registros, dado que estamos utilizando los datos correspondientes a un año completo y dos meses. El retraso correspondiente a cada uno de estos registros será el retraso medio de ese día.
+
+Adicionalmente, utilizaremos los datos correspondientes a un solo modelo de avión. Por ello, ya tenemos nuestros datos para la regresión, los retrasos medios de un modelo de avión en cada día desde Abril de 2017 a Mayo de 2018. Utilizaremos un 90\% de los datos para \emph{training} y un 10\% en \emph{testing}, lo que se corresponde con utilizar los meses el primer año completo, de Abril a Marzo, en \emph{training} y el resto en \emph{testing}. En [\ref{fig:Regresion737}] vemos un ejemplo utilizando los datos del modelo Boeing 737-7H4.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=14cm]{Regresion-737.png}
+	\caption{Regresión obtenida utilizando los datos del modelo 737-7H4}
+	\label{fig:Regresion737}
+\end{figure}
+
+Como podemos ver en [\ref{fig:Regresion737}], en la parte derecha (correspondiente a los datos de \emph{testing}), el modelo (en verde) predice correctamente los retrasos, siguiendo los máximos y mínimos reales (en blanco).
+
+Ahora bien, para obtener estos resultados, es decir, predecir correctamente el retraso que tendrá un vuelo, necesitamos tan solo dos datos, el día de dicho vuelo y el modelo de avión que se utilizará. Dado que el modelo de avión podría ser, o no, conocido de antemano, cabe preguntarse si los datos obtenidos utilizando un determinado modelo de avión pueden ser utilizados para otros modelos, considerados similares.
+
+Para ello, utilizaremos los modelos 737-7H4 y 717-200, que bajo nuestro conocimiento del problema cumplen funciones similares. Ambos son aviones comerciales, que transportan pasajeros con su equipaje, y que tienen capacidad para alrededor de 150 pasajeros. Los resultados obtenidos pueden verse en [\ref{fig:Regresion737_2}] y [\ref{fig:Regresion717}]. Los resultados no son prometedores, y queda patente que no sería posible utilizar los datos de un modelo para predecir el retraso de otros modelos distintos.
+
+\begin{figure}[bht]
+	\centering
+	\begin{subfigure}{\linewidth}
+		\centering
+		\includegraphics[width=9cm]{Regresion-737.png}
+		\caption{Modelo 737-7H4}
+		\label{fig:Regresion737_2}
+	\end{subfigure}
+	\begin{subfigure}{\linewidth}
+		\centering
+		\includegraphics[width=9cm]{Regresion-717.png}
+		\caption{Modelo 717-200}
+		\label{fig:Regresion717}
+	\end{subfigure}
+	\caption{Regresión utilizando dos modelos diferentes}
+	\label{fig:Regresion_737_717}
+\end{figure} 
+
+\section{Conclusiones}
+
+A lo largo de este documento hemos obtenido diversos resultados, en nuestro intento de predecir retrasos en vuelos de avión, en Estados Unidos. Las primeras aproximaciones a clasificar los vuelos entre aquellos con retraso y aquellos sin él, dieron buenos resultados, si bien mejorables. En el caso de la regresión, no se obtuvo ningún resultado satisfactorio.
+
+De cara al futuro, y a mejorar los resultados, consideramos posibles dos mejoras. La primera de ellas es obtener información adicional relativa a los vuelos, como por ejemplo, la climatología. La segunda mejora consiste en aumentar nuestro conocimiento del dominio, que nos permitiría un mejor uso de los datos que ya disponemos.
+
 \end{document}
